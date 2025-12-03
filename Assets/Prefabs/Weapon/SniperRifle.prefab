@@ -42,8 +42,8 @@ GameObject:
   - component: {fileID: 3297354719281045765}
   - component: {fileID: 6756582809520564150}
   - component: {fileID: 5293410347402626248}
-  - component: {fileID: 6967511088815321654}
   - component: {fileID: 946625861525139990}
+  - component: {fileID: 618837865940767238}
   m_Layer: 0
   m_Name: SniperRifle
   m_TagString: Weapon
@@ -139,20 +139,6 @@ MonoBehaviour:
   enemyTag: Enemy
   pivotPoint: {fileID: 0}
   firePoint: {fileID: 8857001017673306414}
---- !u!114 &6967511088815321654
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8449237986285115920}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e19c9aba0ce91e843838c8ab23673248, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  weaponPrefab: {fileID: 8449237986285115920}
-  spriteRenderer: {fileID: 0}
 --- !u!61 &946625861525139990
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -199,3 +185,16 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 3, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &618837865940767238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8449237986285115920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22a22e7a22e05b34ba6dbd8f98fb1a00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemData: {fileID: 11400000, guid: 7eed7fc88374a7e46a0a9af6dbb3541f, type: 2}

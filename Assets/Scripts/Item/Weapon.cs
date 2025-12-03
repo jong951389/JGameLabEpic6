@@ -131,7 +131,7 @@ public class Weapon : MonoBehaviour
     void Shoot()
     {
         // 나중에 여기에 총알 생성 코드나 레이캐스트 코드가 들어감
-        Debug.Log($"<color=yellow>[{weaponData.weaponName}]</color> 탕! (사거리: {weaponData.range})");
+        Debug.Log($"<color=yellow>[{weaponData.itemName}]</color> 탕! (사거리: {weaponData.range})");
     }
 
     // 에디터에서 사거리 눈으로 확인하기 (선택 시에만 보임)

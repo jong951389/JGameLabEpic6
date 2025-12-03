@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 155d6487b09606c4f8b4ea723d797ccf, type: 3}
   m_Name: AssultRifleData
   m_EditorClassIdentifier: 
-  weaponName: AssultRifle
-  weaponIcon: {fileID: 21300000, guid: 6d698182a1d5c0a4f9f72345eaa27c7e, type: 3}
-  weaponExplanation: "\uB3CC\uACA9\uC18C\uCD1D, \uACF5\uACA9 \uBC94\uC704\uB294 \uC881\uC9C0\uB9CC
-    \uACF5\uACA9\uC18D\uB3C4\uB294 \uBE60\uB984"
+  itemName: "\uB3CC\uACA9\uC18C\uCD1D"
+  icon: {fileID: 21300000, guid: 6d698182a1d5c0a4f9f72345eaa27c7e, type: 3}
+  ItemWeight: 10
+  itemType: 0
+  Explanation: "\uACF5\uACA9 \uBC94\uC704\uB294 \uC9E7\uC9C0\uB9CC \uACF5\uACA9 \uC18D\uB3C4\uAC00
+    \uBE60\uB974\uB2E4."
+  prefab: {fileID: 3360686392932224897, guid: 554023eb3b26b554bbd3acbfd5a7be3f, type: 3}
   fireRate: 1
   range: 3

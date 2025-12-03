@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 155d6487b09606c4f8b4ea723d797ccf, type: 3}
   m_Name: SniperData
   m_EditorClassIdentifier: 
-  weaponName: SniperRifle
-  weaponIcon: {fileID: 21300000, guid: f0e8495f3c1fea54e91b03f03f8a3755, type: 3}
-  weaponExplanation: "\uC800\uACA9 \uC18C\uCD1D, \uC0AC\uAC70\uB9AC\uAC00 \uB113\uC73C\uB098
-    \uACF5\uACA9 \uC18D\uB3C4\uAC00 \uB2E4\uC18C \uB290\uB9BC"
+  itemName: "\uC800\uACA9\uC18C\uCD1D"
+  icon: {fileID: 21300000, guid: f0e8495f3c1fea54e91b03f03f8a3755, type: 3}
+  ItemWeight: 12
+  itemType: 0
+  Explanation: "\uACF5\uACA9 \uBC94\uC704\uAC00 \uB117\uC73C\uB098 \uACF5\uACA9\uC18D\uB3C4\uAC00
+    \uB290\uB9AC\uB2E4"
+  prefab: {fileID: 8449237986285115920, guid: f200e3bdc2b75c7408da70b322d6ae07, type: 3}
   fireRate: 3
   range: 10
