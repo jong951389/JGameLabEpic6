@@ -36,6 +36,11 @@ public class PlayerMoveController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        PlayerMove();   
+    }
+
+    void PlayerMove()
+    {
         // 1. 이동 처리
         rb.linearVelocity = moveInput * moveSpeed;
 
