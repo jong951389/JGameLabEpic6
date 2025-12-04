@@ -67,7 +67,18 @@ public class UIItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
         {
             Vector3 dropPos = mainCamera.ScreenToWorldPoint(Input.mousePosition);
             dropPos.z = 0;
-            Instantiate(itemData.prefab, dropPos, Quaternion.identity);
+
+            // 1. 생성된 오브젝트를 변수(spawnedObject)에 담습니다.
+            GameObject spawnedObject = Instantiate(itemData.prefab, dropPos, Quaternion.identity);
+
+            // 2. 생성된 오브젝트에서 MagazineManager 컴포넌트를 찾습니다.
+            MagazineManager manager = spawnedObject.GetComponent<MagazineManager>();
+
+            // 3. 매니저가 있다면 데이터를 넘겨줍니다.
+            if (manager != null)
+            {
+                manager.SetData(itemData); // 이 함수를 호출해서 데이터를 심어줌
+            }
         }
     }
 }

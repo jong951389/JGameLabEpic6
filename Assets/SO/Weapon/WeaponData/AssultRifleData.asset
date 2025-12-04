@@ -20,4 +20,4 @@ MonoBehaviour:
     \uBE60\uB974\uB2E4."
   prefab: {fileID: 3360686392932224897, guid: 554023eb3b26b554bbd3acbfd5a7be3f, type: 3}
   fireRate: 1
-  range: 3
+  range: 15

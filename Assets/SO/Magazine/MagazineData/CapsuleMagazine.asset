@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 938a0fceb09874443b72b8f52763fc9e, type: 3}
+  m_Name: CapsuleMagazine
+  m_EditorClassIdentifier: 
+  itemName: "\uCEA1\uC290\uD0C4\uCC3D"
+  icon: {fileID: 21300000, guid: f4ad55f445d68694bbefc77b96b236fc, type: 3}
+  ItemWeight: 5
+  itemType: 1
+  Explanation: "\uCEA1\uC290\uD615 \uC801\uC744 \uCC98\uCE58\uD558\uAE30 \uC704\uD55C
+    \uD0C4\uC774 \uB4E4\uC5B4\uC788\uB294 \uD0C4\uCC3D"
+  prefab: {fileID: 8050988405619696951, guid: 3f1253073a564d14b90733844b2a3e07, type: 3}
+  magazineType: Capsule
+  magazineCapacity: 1
+  bulletPrefab: {fileID: 8773573917111526491, guid: 24280686d4f15c545b7fb7c4163e44eb, type: 3}
